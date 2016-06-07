@@ -1,0 +1,79 @@
+/* ===== MEDIA ===== */
+
+/* ----- HEIGHT ---- */
+@media (max-height: 760px) {
+
+}
+
+/* ----- WIDTH ---- */
+
+@media (max-width: 1450px) {
+    .box-outside {
+        position: static;
+        margin: 0px 0px;
+        top:0;
+        left: 0;
+        width: auto;
+        border: 1px solid #333333;
+        height: auto;
+        padding: 10px 30px;
+    }
+    .box-outside .text-inside {
+        display:block;
+    }
+    .box-outside .text-outside {
+        display:none;
+    }
+
+}
+@media (max-width: 1170px) {
+    .blocky-text {
+        padding: 30px 250px 30px 30px;
+        background: #ffffff url("../img/shards_pattern_vertical.png") 100% 0% no-repeat;
+        background-size: 200px;
+    }
+}
+@media (max-width: 1079px) {
+
+}
+
+@media (max-width: 992px) {
+    header .logo {
+        padding: 5px 30px;
+    }
+    .blocky-text {
+        background: #ffffff url("../img/shards_pattern_vertical.png") 100% 100% no-repeat;
+        background-size: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .blocky-text {
+        padding: 20px 30px 20px 30px;
+        background: #ffffff;
+    }
+}
+
+@media (max-width: 480px) {
+    .visible-below-xs {
+        display:block;
+    }
+    header .logo {
+        padding: 5px 0px 5px 30px;
+    }
+    header .logo h2 {
+        font-size: 2.2rem;
+    }
+
+    .main-box {
+        margin: 15px 0px 15px 0px;
+        padding: 30px;
+        border: 1px solid #333333;
+        background: #333333;
+    }
+    .main-box h2, .main-box h4 {
+        color: #ffffff;
+    }
+
+
+}
